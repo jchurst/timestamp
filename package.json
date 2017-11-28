@@ -1,0 +1,30 @@
+{
+  "name": "timestamp-api",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp API: Timestamp Microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchurst/timestamp.git"
+  },
+  "keywords": [
+    "API",
+    "JCHurst",
+    "TimeStamp",
+    "Node"
+  ],
+  "author": "JC Hurst",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jchurst/timestamp/issues"
+  },
+  "homepage": "https://github.com/jchurst/timestamp#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "moment": "^2.10.6"
+  }
+}
