@@ -1,4 +1,4 @@
-Author - JC Hurst https://avatars1.githubusercontent.com/u/18730511?s=400&u=1e9ebda19d790107a1c2c207590b251c77cba20d&v=4
+Author - ![@JCHurst] (https://avatars1.githubusercontent.com/u/18730511?s=400&u=1e9ebda19d790107a1c2c207590b251c77cba20d&v=4)
 
 Created by JC Hurst
 
