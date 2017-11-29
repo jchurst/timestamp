@@ -1,0 +1,175 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  width:100%
+}
+
+/* GLOBAL */
+
+.headline {
+margin:20px 0 40px 0
+}
+
+
+/* FORMS */
+
+.app-form label{
+display: block;
+margin: 0px 0px 15px 0px;
+}
+.app-form label > span{
+width: 100px;
+font-weight: bold;
+float: left;
+padding-top: 8px;
+padding-right: 5px;
+}
+.app-form span.required{
+color:red;
+}
+.app-form .tel-number-field{
+width: 40px;
+text-align: center;
+}
+
+.app-form input.input-field, 
+.app-form .tel-number-field, 
+.app-form .textarea-field, 
+.app-form .select-field{
+width:80%;
+margin:0 auto 0 auto;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+border: 1px solid #C2C2C2;
+-moz-box-shadow: 1px 1px 4px #EBEBEB;
+-webkit-box-shadow: 1px 1px 4px #EBEBEB;
+box-shadow: 1px 1px 4px #EBEBEB;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+padding: 7px;
+outline: none;
+width: 280px
+}
+
+.app-form input.input-field2, 
+.app-form .tel-number-field2, 
+.app-form .textarea-field2, 
+.app-form .select-field2{
+width:100%;
+margin:0 auto 0 auto;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+border: 1px solid #C2C2C2;
+-moz-box-shadow: 1px 1px 4px #EBEBEB;
+-webkit-box-shadow: 1px 1px 4px #EBEBEB;
+box-shadow: 1px 1px 4px #EBEBEB;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+padding: 7px;
+outline: none;
+}
+
+.app-form .radio-field{
+margin:0 auto 0 auto;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+border: 1px solid #C2C2C2;
+-moz-box-shadow: 1px 1px 4px #EBEBEB;
+-webkit-box-shadow: 1px 1px 4px #EBEBEB;
+box-shadow: 1px 1px 4px #EBEBEB;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+padding: 7px;
+outline: none;
+}
+.app-form .input-field:focus, 
+.app-form .tel-number-field:focus, 
+.app-form .textarea-field:focus,  
+.app-form .select-field:focus
+.app-form .radio-field:focus{
+border: 1px solid #ffd200;
+-webkit-box-shadow: 0px 0px 3px 3px rgba(255, 210, 0, 0.75);
+-moz-box-shadow:    0px 0px 3px 3px rgba(255, 210, 0, 0.75);
+box-shadow:         0px 0px 3px 3px rgba(255, 210, 0, 0.75);
+}
+.app-form .textarea-field{
+height:100px;
+width: 55%;
+}
+.app-form .input-field2:focus, 
+.app-form .tel-number-field2:focus, 
+.app-form .textarea-field2:focus,  
+.app-form .select-field2:focus
+.app-form .radio-field2:focus{
+border: 1px solid #ffd200;
+-webkit-box-shadow: 0px 0px 3px 3px rgba(255, 210, 0, 0.75);
+-moz-box-shadow:    0px 0px 3px 3px rgba(255, 210, 0, 0.75);
+box-shadow:         0px 0px 3px 3px rgba(255, 210, 0, 0.75);
+}
+.app-form .textarea-field{
+height:100px;
+width: 55%;
+}
+.app-form input[type=submit],
+.app-form input[type=button]{
+border: none;
+padding: 8px 15px 8px 15px;
+background: #000;
+color: #fff;
+-moz-box-shadow: 1px 1px 4px #DADADA;
+-webkit-box-shadow: 1px 1px 4px #DADADA;
+box-shadow: 1px 1px 4px #DADADA;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+.app-form input[type=submit]:hover,
+.app-form input[type=button]:hover{
+background: #ffd200;
+color: #000;
+}
+
+/* BUTTONS */
+
+.btn-holder {
+padding-bottom:10px;
+margin:0 auto 0 auto;
+}
+
+.btn-holder h4 {
+display:block;
+width:90%;
+padding:10px 0 10px 0;
+margin:10px auto 0 auto;
+}
+
+.btn, .btn-primary, .btn-blk {
+background-color:#000;
+color:#fff;
+margin:0 auto 0 auto;
+}
+
+.btn:visited, .btn-primary:visited, .btn-blk:visited {
+background-color:#000;
+color:#fff;
+}
+
+.btn:active, .btn-primary:active, .btn-blk:active {
+background-color:#000;
+color:#fff;
+}
+
+.btn:focus, .btn-primary:focus, .btn-blk:focus {
+background-color:#000;
+color:#fff;
+}
+
+.btn:hover, .btn-primary:hover, .btn-blk:hover {
+background-color:#ffd200;
+color:#000;
+}
