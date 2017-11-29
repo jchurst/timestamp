@@ -1,28 +1,24 @@
-'use strict';
+// Dependencies
+const express = require('express');
+const http = require('http');
+const app = express();
 
-// call packages
-var express    = require('express');
-var app        = express();
-var bodyParser = require('body-parser');
-var routes = require('./app/routes/index.js');
-var api = require('./app/api/timestamp.js');
+// API routes
+const api = require('./routes/api');
 
-app.use(function(req, res, next) {
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Methods", "GET");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-    next();
-  });
-  
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
-app.use('/public', express.static(process.cwd() + '/public'));
-    
-var port = process.env.PORT || 8080; // set port
-       
-routes(app);
-api(app);
+// css and javascript files in public folder
+app.use(express.static('public'));
 
-app.listen(port, function() {
-    console.log('Node.js listening on port ' + port);
-});
+// Routes
+app.use('/api/v1', api);
+app.use('/api/', api);
+app.use('/', api);
+
+// View rendering
+app.set('view engine', 'pug');
+
+// Create server
+const server = http.createServer(app);
+const port = process.env.PORT || '3000';
+app.set('port', port);
+server.listen(port, () => console.log(`API running on localhost:${port}`));
