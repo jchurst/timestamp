@@ -9,7 +9,7 @@ LinkedIn - https://www.linkedin.com/in/jchurst
 Website - http://hurstcreative.com
 E-Mail - mailto:jchurstmail@gmail.com
 
-FreeCodeCamp API: Timestamp Microservice
+FreeCodeCamp - Timestamp Microservice
 
 User stories:
 
