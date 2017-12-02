@@ -14,8 +14,8 @@ Created by JC Hurst
 ## Example usage:
 
 ```url
-https://timestamp-ms.herokuapp.com/December%2015,%202015
-https://timestamp-ms.herokuapp.com/1450137600
+https://slow-rutabaga.glitch.me/December%2015,%202015
+https://slow-rutabaga.glitch.me/1450137600
 ```
 
 ## Example output:
